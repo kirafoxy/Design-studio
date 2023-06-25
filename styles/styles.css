@@ -92,7 +92,7 @@ h1{
     color: #FFFFFF;
    
 }
-.us-container{
+.subtitle-container{
     
     margin-left: 125px;
     margin-bottom: 280px; 
@@ -194,40 +194,4 @@ h4{
     height: 553px;
 
 }
-.Contacts-container img{
-    margin-top: -162px;
-    width: 18px;
-    height: 24px;
-    
-}
-.contacts{
-    margin-top: 32px;
-    font-size: 60px;
-    margin-left: -100px;
-    line-height: 60px;
-    letter-spacing: 1px;
-   
-}
-.ending-container{
-    display: flex;
-    width: 1400px;
-    height: 229px;
-    background-color: #121212;
-    color: #FFFFFF;
-}
-.ending{
-    display: inline-block;
-    width: 450px;
-    height: 25px;
 
-}
-
-
-.epilog{
-    margin-top: 172px;
-    text-align: center;
-    font-size: 20px;
-    width: 400px;
-    height: 35px;
-    letter-spacing: -0.6px;
-}
