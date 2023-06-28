@@ -2,6 +2,8 @@ body{
     font-family: 'Manrope', sans-serif;
     width: 1400px;
     height: 7211px;
+    padding: 0;
+    margin: 0;
    
 }
 .page{
@@ -71,6 +73,7 @@ h1{
     
 }
 .title-container{
+    position: relative;
     margin-left: 125px;
     width: 1150px;
     height: 650px;
@@ -81,6 +84,7 @@ h1{
     
 }
 .title-container h2{
+    position: absolute;
     padding-top: 379px;
     padding-left: 40px;
     width: 430px;
@@ -114,7 +118,7 @@ h4{
     font-size: 30px;
 
 }
-.links{
+.link{
     margin-bottom: 90px;
     font-weight: 400;
     font-size: 20px;
@@ -135,15 +139,31 @@ h4{
 }
 .button:hover{
     color: #ad1818;
-	background-color: bisque;
+    background-color: #ffffff;
+    text-decoration: underline;
 }
 
 .items-container{
     width: 1150px;
     height: 2122px;
     margin-left: 125px;
-
 }
+.btn-project{
+    display: block;
+    width: 1150px;
+    height: 153px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 153px;
+    border: 1px solid #AD1818;
+    color: #AD1818;
+    
+}
+.btn-project:hover{
+    color: #ffffff;
+    background-color:#ad1818;
+}
+
 .services-container{
     margin: 0 auto;
     width: 100%;
@@ -164,29 +184,17 @@ h4{
     padding-top: 151px;
     color: #FFFFFF;
 }
-.btn-project{
-    display: block;
-    width: 1150px;
-    height: 153px;
-    font-size: 30px;
-    text-align: center;
-    line-height: 153px;
-    border: 1px solid #AD1818;
-    color: #AD1818;
-    
-}
-.btn-project:hover{
-    color: #ffffff;
-	background-color:#ad1818;
-}
-.full-img{
+
+.container-full-img{
+    position:relative;
     width: 1400px;
     height: 717px;
     background-image: url(../images/Rectangle9.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.full-img h5{
+.container-full-img h5{
+    position: absolute;
     padding-left: 125px;
     padding-top: 575px;
     display: flex;
@@ -197,34 +205,5 @@ h4{
     line-height: 40px;
     letter-spacing: 2px;
 }
-.Contacts-container{
-    margin-top: 186px;
-    margin-left: 120px;
-    display: flex;
-    width: 1400px;
-    height: 553px;
 
-}
-.Contacts-container img{
-    margin-top: -162px;
-    width: 18px;
-    height: 24px;
-    
-}
-.contacts{
-    margin-top: 32px;
-    font-size: 60px;
-    margin-left: -100px;
-    line-height: 60px;
-    letter-spacing: 1px;
-   
-}
-.ending-container{
-    margin: 0 auto;
-    display: flex;
-    width: 100%;
-    height: 229px;
-    background-color: #121212;
-    color: #FFFFFF;
-}
 
