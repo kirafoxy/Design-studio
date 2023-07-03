@@ -140,7 +140,7 @@ h4{
 .button:hover{
     color: #ad1818;
     background-color: #ffffff;
-    text-decoration: underline;
+    border: 1px solid #AD1818;
 }
 
 .items-container{
@@ -157,6 +157,7 @@ h4{
     line-height: 153px;
     border: 1px solid #AD1818;
     color: #AD1818;
+    border-radius: 5px;
     
 }
 .btn-project:hover{
